@@ -54,6 +54,10 @@ Codes for each method is shown in coresponding folder name
 * The codes run in my Google Colab environment. If you want to use, remember to change them suitably in you enviroment
 * I have 2 version for each method: One is .ipynb, other is .py
 
+### Bonus
+* I not just only reused and explained the source code, I actually improved the model's architectures through my knowledge and experiments.
+* Outside 3 models recommended by my Profesor, I tried PhoBert - A model fine-tuned for sentiment analysis based on [vinai/phobert-base](https://huggingface.co/vinai/phobert-base).
+
 ### Report
 You can see my detailed report about explanations, codes, my improvements and experiments in the report **.pdf**
 
