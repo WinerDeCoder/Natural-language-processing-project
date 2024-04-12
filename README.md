@@ -1,25 +1,61 @@
-# Natural-language-processing-project
-This my project in NLP course in my university - Ho Chi Minh University of Technology ( HCMUT ) 
+# Natural Language Processing Project: Sentiment Analysis using CNN, LSTM, and Combined Architectures
 
-The requirements of professor for this project:
-I. Introduction
+**Highlight:** **This my project in NLP course in my university - Ho Chi Minh University of Technology ( HCMUT ). This project explores various deep learning architectures for sentiment analysis, achieving improved performance compared to baseline models.**
 
-In Labs 5 and 6, everyone was provided with sentiment datasets used in the VLSP competition. Additionally, code examples were given for:
 
-Using CNN for sentiment analysis
-Using RNN and LSTM for sentiment analysis
-Pre-trained Word2Vec model using CBOW
-II. Requirements
 
-a. Propose and experiment with at least 3 methods (your own proposed method will be encouraged):
+## Introduction
 
-CNN
-LSTM
-Combining CNN and LSTM 
-The first two methods can reuse sample code or be improved to achieve better results (bonus will be given).
+This project fulfills the requirements for an NLP course at Ho Chi Minh University of Technology (HCMUT). The course explored various deep learning techniques for sentiment analysis, focusing on:
 
-b. Present the experimental results and compare between the methods.
+* **CNN-based Sentiment Analysis:** Leveraging convolutional layers to extract local features from text data for sentiment classification.
+* **RNN-based Sentiment Analysis with LSTM:** Employing LSTMs to capture sequential dependencies within text sequences for improved sentiment understanding.
+* **Word Embeddings with Word2Vec (CBOW):** Pre-training word embeddings using the CBOW (Continuous Bag-of-Words) model to represent words as numerical vectors.
 
-III. Submission
+## Requirements
 
-Submit a zipped file including:
+### 1. Data Preprocessing
+
+* **Dataset:** Describe the VLSP sentiment analysis datasets used and any preprocessing steps applied (e.g., cleaning, tokenization, text normalization).
+* **Word Embeddings:** Explain how you utilize pre-trained Word2Vec embeddings (or other embedding techniques) to represent words numerically.
+
+### 2. Model Architectures
+
+**2.1. CNN-based Model:**
+
+* Describe the architecture of your CNN model, including the number and configuration of convolutional layers, pooling layers, activation functions, and fully connected layers.
+* Explain how the model extracts local features and performs sentiment classification.
+
+**2.2. LSTM-based Model:**
+
+* Detail the architecture of your LSTM model, specifying the number of LSTM layers, hidden units, and dropout layers (if applicable).
+* Explain how the model captures sequential dependencies and classifies sentiment.
+
+**2.3. Combined CNN-LSTM Model (Optional):**
+
+* If you implemented a combined architecture, elaborate on its design. How do CNN and LSTM components interact within the model?
+
+### 3. Model Training and Evaluation**
+
+* Explain the training process, including hyperparameter tuning, optimization algorithm (e.g., Adam), loss function (e.g., cross-entropy), and training/validation split.
+* Describe the metrics used to evaluate model performance (e.g., accuracy, F1-score, precision, recall).
+* Compare between the methods.
+
+### 4. Bonus Points
+* Bonus points will be given if students can improve the performance of given model by modify the model's architecture
+
+
+
+## My Work
+
+### Code
+Codes for each method is shown in coresponding folder name
+**Attention: ** 
+* The codes run in my Google Colab environment. If you want to use, remember to change them suitably in you enviroment
+* I have 2 version for each method: One is .ipynb, other is .py
+
+### Report
+You can see my detailed report about explanations, codes, my improvements and experiments in the report **.pdf**
+
+
+
